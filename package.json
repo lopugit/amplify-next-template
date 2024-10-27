@@ -1,0 +1,11 @@
+{
+  "name": "aws-amplify-gen2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix next",
+    "build": "npm run build --prefix next",
+    "start": "npm run start --prefix next",
+    "lint": "npm run lint --prefix next"
+  }
+}

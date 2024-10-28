@@ -1,6 +1,9 @@
 # dont exit 2 on any errors
 echo "Running postBuildStats.sh"
 
+echo "pwd"
+pwd
+
 echo "ls -la"
 ls -la || true
 
@@ -14,6 +17,9 @@ echo "ls -la .next/standalone"
 echo "cat amplify.sh"
 cat amplify.sh || true
 
+# cat the amplify_outputs.json file
+echo "cat amplify_outputs.json"
+
 echo "ls -la amplify"
 ls -la amplify || true
 
@@ -26,9 +32,6 @@ ls -la amplify/backend/hosting/S3AndCloudFront || true
 
 echo "ls -la deploy-manifest.json"
 ls -la deploy-manifest.json || true
-
-echo "pwd"
-pwd
 
 # check certain directories exist
 echo "Checking for .amplify-hosting directory"

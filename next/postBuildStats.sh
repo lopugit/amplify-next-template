@@ -7,6 +7,13 @@ ls -la || true
 echo "ls -la .next"
 ls -la .next || true
 
+# ls -la the .next/standalone path
+echo "ls -la .next/standalone"
+
+# cat amplify.sh
+echo "cat amplify.sh"
+cat amplify.sh || true
+
 echo "ls -la amplify"
 ls -la amplify || true
 

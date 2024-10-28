@@ -1,3 +1,6 @@
+# dont exit 2 on any errors
+set +e
+
 echo "Running postBuildStats.sh"
 
 echo "ls -la"

@@ -14,6 +14,10 @@ ls -la .next || true
 echo "ls -la .next/standalone"
 ls -la .next/standalone || true
 
+# ls -la the .next/standalone/.next path
+echo "ls -la .next/standalone/.next"
+ls -la .next/standalone/.next || true
+
 # cat amplify.sh
 echo "cat amplify.sh"
 cat amplify.sh || true
@@ -47,3 +51,6 @@ ls -la .github || true
 
 echo "Checking for .git directory"
 ls -la .git || true
+
+echo "ls -la ../ for shits and gigs"
+ls -la ../ || true

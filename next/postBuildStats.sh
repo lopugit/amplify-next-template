@@ -14,6 +14,14 @@ ls -la .next || true
 echo "ls -la .next/standalone"
 ls -la .next/standalone || true
 
+# ls the contents of the .next/server folder
+echo "ls -la .next/server"
+ls -la .next/server || true
+
+# also inside standalone
+echo "ls -la .next/standalone/.next/server"
+ls -la .next/standalone/.next/server || true
+
 # ls -la the .next/standalone/.next path
 echo "ls -la .next/standalone/.next"
 ls -la .next/standalone/.next || true

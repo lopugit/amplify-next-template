@@ -12,6 +12,7 @@ ls -la .next || true
 
 # ls -la the .next/standalone path
 echo "ls -la .next/standalone"
+ls -la .next/standalone || true
 
 # cat amplify.sh
 echo "cat amplify.sh"
@@ -19,6 +20,7 @@ cat amplify.sh || true
 
 # cat the amplify_outputs.json file
 echo "cat amplify_outputs.json"
+cat amplify_outputs.json || true
 
 echo "ls -la amplify"
 ls -la amplify || true
